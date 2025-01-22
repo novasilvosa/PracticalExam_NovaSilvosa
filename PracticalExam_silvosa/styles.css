@@ -1,0 +1,73 @@
+/* General page styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for the page */
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Set a solid color background */
+    background: linear-gradient(to right, #4CAF50, #8BC34A); /* Optional: Gradient background */
+    padding: 20px;
+    text-align: center;
+    color: white; /* White text color */
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Dark background for the navbar */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center align the nav items */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 15px; /* Space out the items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Change color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    text-align: center; /* Center the content in the main section */
+}
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049; /* Slightly darker green when hovering */
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    padding: 10px;
+    text-align: center; /* Center align the footer content */
+    font-size: 12px; /* Smaller font size for the footer */
+}
